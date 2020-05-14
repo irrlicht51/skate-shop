@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SKATE CULTURE BLOG</title>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>
+        ILLRICHT SKATE SHOP
+      </h1>
+
+      <div class="navi-area">
+        <navi>
+          <ul class="header-navi">
+            <li>
+              <a>カテゴリー<br><span>Category</span></a>
+              <ul class="header-sub-navi">
+                <li><a href="">ITEM紹介</a></li>
+                <li class="next-sub"><a href="">SK8トリック</a>
+                  <ul class="next-sub-navi">
+                    <li><a href="">基本テクニック</a></li>
+                    <li><a href="">オーリー系</a></li>
+                    <li><a href="">ショービット系</a></li>
+                    <li><a href="">スライド系</a></li>
+                  </ul>
+                </li>
+                <li><a href="">HOW TO</a></li>
+                <li><a href="">その他</a></li>
+              </ul>
+            </li>
+            <li><a href="">当サイトについて<br><span>AboutMe</span></a></li>
+            <li><a href="">コンタクト<br><span>ContactUs</span></a></li>
+            <li><a href="">レベル1<br><span>Level1</span></a>
+              <ul class="header-sub-navi">
+                <li><a href="">レベル2</a></li>
+              </ul>
+            </li>
+            <li><a href="">アクセス<br><span>Access</span></a></li>
+          </ul>
+        </navi>
+        <button type="submit" class="header-serch"><i class="fas fa-search"></i>search</button>
+      </div>
+      <div class="serch-wrapper">
+        <div class="serch-bg"></div>
+        <div class="header-serch-content">
+          <form action="" class="header-serch-form">
+            <p>キーワードで記事を検索</p>
+            <input type="text" name="" id="" placeholder="検索する" class="header-serch-input">
+            <button type="submit" class="header-serch-btn"><i class="fas fa-search"></i></button>
+            <span class="close-btn"><i class="fas fa-times"></i>close</span>
+          </form>
+        </div>
+      </div>
+      <button class="burger-btn sp"><i class="fas fa-bars"></i>menu</button>
+      <div class="serch-navi-wrapper">
+        <div class="header-serch-navi-bg"></div>
+        <nav class="header-serch-navi">
+          <div class="header-serch-navi-inner">
+            <span class="navi-close-btn"><i class="fas fa-times"></i>close</span>
+
+            <div class="category-area">
+              <h2>メニュー</h2>
+
+              <div class="category-content">
+                <ul>
+                  <li><a href="">当サイトについて</a></li>
+                  <li><a href="">新着記事</a></li>
+                  <li><a href="">人気の記事</a></li>
+                  <li><a href="">トリック紹介</a></li>
+                  <li><a href="">HOW TO</a></li>
+                  <li><a href="">ITEM紹介</a></li>
+                  <li><a href="">コンタクト</a></li>
+                  <li><a href="">アクセス</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="text-area">
+              <h2>コメント</h2>
+
+              <div class="text-area-content">
+                <p class="person"><img src="./takuya.JPG" alt=""><span class="name">TAKUYA</span></p>
+                <p class="commnt-area">好きなテキストを入力して下さい♪</p>
+              </div>
+            </div>
+
+            <div class="tag-area">
+              <h2>Tag</h2>
+              <ul class="tag-content inner-navi">
+                <li><a href="">SK8</a></li>
+                <li><a href="">PUSH</a></li>
+                <li><a href="">TURN</a></li>
+                <li><a href="">TIC TACS</a></li>
+                <li><a href="">POWER SLIDE</a></li>
+                <li><a href="">MANUAL</a></li>
+                <li><a href="">PICKUP</a></li>
+                <li><a href="">OLLIE</a></li>
+                <li><a href="">HALF CAB</a></li>
+                <li><a href="">NOLLIE</a></li>
+                <li><a href="">Shove It</a></li>
+                <li><a href="">360 SHOVE IT</a></li>
+                <li><a href="">KICK FLIP</a></li>
+                <li><a href="">HEEL FLIP</a></li>
+                <li><a href="">NO COMPLY</a></li>
+                <li><a href="">IMPOSSIBLE</a></li>
+                <li><a href="">360kicklip</a></li>
+                <li><a href="">VARIAL KICKFLIP</a></li>
+                <li><a href="">HARD FLIP</a></li>
+                <li><a href="">FRONTSIDE BOARD SLIDE</a></li>
+              </ul>
+            </div>
+
+            <div class="navi-recent-article-image">
+              <h2>最近の記事</h2>
+
+              <div class="navi-image-areticle-area">
+                <ul>
+                  <li>
+                    <article class="navi-image-article">
+                      <a href="">
+                        <figure>
+                          <img src="./board-slide_640.jpg" alt="">
+                          <span class="icon">HOW TO</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          ボードスライドを覚えよう
+                          <time class="date">2020.01.17</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="navi-image-article">
+                      <a href="">
+                        <figure>
+                          <img src="./stair_640.jpg" alt="">
+                          <span class="icon">HOW TO</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          段差をジャンプ！ステアーにチャレンジ
+                          <time class="date">2019.12.18</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="navi-image-article">
+                      <a href="">
+                        <figure>
+                          <img src="./skatepark_640.jpg" alt="">
+                          <span class="icon">PARK</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          パークデビュー
+                          <time class="date">2019.11.16</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="navi-image-article">
+                      <a href="">
+                        <figure>
+                          <img src="./ollie_640.jpg" alt="">
+                          <span class="icon">HOW TO</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          最初にして最大の難関「オーリー」
+                          <time class="date">2019.10.21</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="navi-image-article">
+                      <a href="">
+                        <figure>
+                          <img src="./tic-tac_640.jpg" alt="">
+                          <span class="icon">HOW TO</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          チックタックを覚えよう
+                          <time class="date">2019.10.05</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                  <li>
+                    <article class="navi-image-article last">
+                      <a href="">
+                        <figure>
+                          <img src="./push_640.jpg" alt="">
+                          <span class="icon">HOW TO</span>
+                        </figure>
+                        <div class="navi-article-title">
+                          プッシュで進んでみよう
+                          <time class="date">2019.09.31</time>
+                        </div>
+                      </a>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <span class="navi-close-btn"><i class="fas fa-times"></i>close</span>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="main-visual">
+      <div class="main-visual-text">
+        <div class="main-title-text">
+          <h2>SKATE CULTURE BLOG</h2>
+          <p>初心者向けスケートカルチャー紹介ブログ</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slider-area">
+      <ul class="slider">
+        <li>
+          <a href="">
+            <figure>
+              <img src="./graffiti-640.jpg" alt="">
+              <figcaption>スケートカルチャーとは</figcaption>
+              <p class="icon">CULTURE</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./board-choice_640.jpg" alt="">
+              <figcaption>まずはボードを選ぼう</figcaption>
+              <p class="icon">ITEM</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./vans_640.jpg" alt="">
+              <figcaption>スケシューを選ぼう</figcaption>
+              <p class="icon">ITEM</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./push_640.jpg" alt="">
+              <figcaption>プッシュで進んでみよう</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./tic-tac_640.jpg" alt="">
+              <figcaption>チックタックを覚えよう</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./ollie_640.jpg" alt="">
+              <figcaption>最初にして最大の難関「オーりー」</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./skatepark_640.jpg" alt="">
+              <figcaption>パークデビュー</figcaption>
+              <p class="icon">PARK</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./stair_640.jpg" alt="">
+              <figcaption>段差をジャンプ！ステア－にチャレンジ</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./board-slide_640.jpg" alt="">
+              <figcaption>ボードスライドを覚えよう</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <figure>
+              <img src="./r-trick_640.jpg" alt="">
+              <figcaption>R-Trickに挑戦</figcaption>
+              <p class="icon">HOW TO</p>
+            </figure>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="main-content">
+      <div class="article-wrapper">
+        <div class="main-content-inner">
+          <h2>新着記事</h2>
+          <div class="article-area">
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./board-slide_640.jpg" alt="">
+                  <span class="icon">HOW TO</span>
+                </figure>
+                <div class="article-text">
+                  <h3>ボードスライドを覚えよう</h3>
+                  <time class="date">2020.01.17</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./stair_640.jpg" alt="">
+                  <span class="icon">HOW TO</span>
+                </figure>
+                <div class="article-text">
+                  <h3>段差をジャンプ！ステアーにチャレンジ</h3>
+                  <time class="date">2019.12.18</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./skatepark_640.jpg" alt="">
+                  <span class="icon">PARK</span>
+                </figure>
+                <div class="article-text">
+                  <h3>パークデビュー</h3>
+                  <time class="date">2019.11.16</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./ollie_640.jpg" alt="">
+                  <span class="icon">HOW TO</span>
+                </figure>
+                <div class="article-text">
+                  <h3>最初にして最大の難関「オーリー」</h3>
+                  <time class="date">2019.10.21</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./tic-tac_640.jpg" alt="">
+                  <span class="icon">HOW TO</span>
+                </figure>
+                <div class="article-text">
+                  <h3>チックタックを覚えよう</h3>
+                  <time class="date">2019.10.05</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./push_640.jpg" alt="">
+                  <span class="icon">HOW TO</span>
+                </figure>
+                <div class="article-text">
+                  <h3>プッシュで進んでみよう</h3>
+                  <time class="date">2019.09.31</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./vans_640.jpg" alt="">
+                  <span class="icon">ITEM</span>
+                </figure>
+                <div class="article-text">
+                  <h3>スケシューを選ぼう</h3>
+                  <time class="date">2019.09.15</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a href="">
+                <figure>
+                  <img src="./board-choice_640.jpg" alt="">
+                  <span class="icon">ITEM</span>
+                </figure>
+                <div class="article-text">
+                  <h3>まずはボードを選ぼう</h3>
+                  <time class="date">2019.09.13</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+            <article class="main-article">
+              <a class="last" href="">
+                <figure>
+                  <img src="./graffiti-640.jpg" alt="">
+                  <span class="icon">CULTURE</span>
+                </figure>
+                <div class="article-text">
+                  <h3>スケートカルチャーとは</h3>
+                  <time class="date">2019.09.07</time>
+                  <p>記事の内容の記述です。</p>
+                </div>
+              </a>
+            </article>
+
+
+
+            <ul class="page-link">
+              <li class="this-page">1</li>
+              <li><a href="">2</a></li>
+              <li><a href="">3</a></li>
+              <li><a href="">></a></li>
+            </ul>
+
+          </div>
+
+          <div class="main-banner">
+            <img src="http://placehold.it/728x90">
+            <p>広告バナー掲載箇所。</p>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <aside class="side-navi">
+        <div class="side-navi-inner">
+          <div class="side-banner">
+            <img src="http://placehold.it/336x280">
+          </div>
+
+          <form action="" class="side-form">
+            <input type="search" name="" id="" placeholder="探索する" class="side-serch"><button type="submit"
+              class="side-serch-btn"><i class="fas fa-search"></i></button>
+          </form>
+
+          <div class="recent-article-image">
+            <h2>人気の記事</h2>
+
+            <div class="image-areticle-area">
+              <ul>
+                <li>
+                  <article class="side-image-article">
+                    <a href="">
+                      <figure>
+                        <img src="./ollie_640.jpg" alt="">
+                        <span class="number">1</span>
+                      </figure>
+                      <div class="article-title">
+                        最初にして最大の難関「オーリー」
+                        <time class="date">2019.10.01</time>
+                      </div>
+                    </a>
+                  </article>
+                </li>
+                <li>
+                  <article class="side-image-article">
+                    <a href="">
+                      <figure>
+                        <img src="./graffiti-640.jpg" alt="">
+                        <span class="number">2</span>
+                      </figure>
+                      <div class="article-title">
+                        スケートカルチャーとは
+                        <time class="date">2020.01.07</time>
+                      </div>
+                    </a>
+                  </article>
+                </li>
+                <li>
+                  <article class="side-image-article">
+                    <a href="">
+                      <figure>
+                        <img src="./board-choice_640.jpg" alt="">
+                        <span class="number">3</span>
+                      </figure>
+                      <div class="article-title">
+                        まずはボードを選ぼう
+                        <time class="date">2019.11.13</time>
+                      </div>
+                    </a>
+                  </article>
+                </li>
+                <li>
+                  <article class="side-image-article">
+                    <a href="">
+                      <figure>
+                        <img src="./vans_640.jpg" alt="">
+                      </figure>
+                      <div class="article-title">
+                        スケシューを選ぼう
+                        <time class="date">2019.11.07</time>
+                      </div>
+                    </a>
+                  </article>
+                </li>
+                <li>
+                  <article class="side-image-article last">
+                    <a href="">
+                      <figure>
+                        <img src="./push_640.jpg" alt="">
+                      </figure>
+                      <div class="article-title">
+                        プッシュで進んでみよう
+                        <time class="date">2019.10.14</time>
+                      </div>
+                    </a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tag-area">
+            <h2>Tag</h2>
+            <ul class="tag-content">
+              <li><a href="">SK8</a></li>
+              <li><a href="">PUSH</a></li>
+              <li><a href="">TURN</a></li>
+              <li><a href="">TIC TACS</a></li>
+              <li><a href="">POWER SLIDE</a></li>
+              <li><a href="">MANUAL</a></li>
+              <li><a href="">PICKUP</a></li>
+              <li><a href="">OLLIE</a></li>
+              <li><a href="">HALF CAB</a></li>
+              <li><a href="">NOLLIE</a></li>
+              <li><a href="">Shove It</a></li>
+              <li><a href="">360 SHOVE IT</a></li>
+              <li><a href="">KICK FLIP</a></li>
+              <li><a href="">HEEL FLIP</a></li>
+              <li><a href="">NO COMPLY</a></li>
+              <li><a href="">IMPOSSIBLE</a></li>
+              <li><a href="">360kicklip</a></li>
+              <li><a href="">VARIAL KICKFLIP</a></li>
+              <li><a href="">HARD FLIP</a></li>
+              <li><a href="">FRONTSIDE BOARD SLIDE</a></li>
+            </ul>
+          </div>
+
+          <div class="archive-area">
+            <h2>アーカイブ</h2>
+            <form action="" class="side-form select-form">
+              <select name="" id="">
+                <option value="">月を選択</option>
+                <option value=""><a href="">2020年1月（1）</a></option>
+                <option value=""><a href="">2019年12月（2）</a></option>
+                <option value=""><a href="">2019年11月（1）</a></option>
+                <option value=""><a href="">2019年10月（2）</a></option>
+                <option value=""><a href="">2019年9月（4）</a></option>
+              </select>
+            </form>
+          </div>
+
+          <div class="category-area">
+            <h2>カテゴリー</h2>
+
+            <div class="category-content">
+              <ul>
+                <li><a href="">ITEM紹介（6）</a></li>
+                <li class="sub-link"><a href="">SK8トリック（11）</a><button class="sub-link-btn"><i
+                      class="fas fa-plus-circle"></i></button></li>
+                <ul class="sub-category">
+                  <li><a href="">基本テクニック（5）</a></li>
+                  <li><a href="">オーリー系（3）</a></li>
+                  <li><a href="">ショービット系（2）</a></li>
+                  <li><a href="">スライド系（1）</a></li>
+                </ul>
+                <li><a href="">HOW TO（14）</a></li>
+                <li><a href="">トピックス（6）</a></li>
+                <li class="last"><a href="">その他（2）</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="thema-area">
+            <h2>ショップの紹介</h2>
+            <P class="shop">ILLRICHT SKATE SHOP</P>
+            <p><img src="./store_640.jpg" alt=""></p>
+            <button class="thema-btn"><a href="">ショップの紹介</a></button>
+          </div>
+
+          <div class="side-banner">
+            <img src="http://placehold.it/336x280">
+            <p>広告バナー掲載</p>
+          </div>
+
+
+        </div>
+
+      </aside>
+
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-col">
+          <h2>Tags</h2>
+          <ul class="tag-content">
+            <li><a href="">SK8</a></li>
+            <li><a href="">PUSH</a></li>
+            <li><a href="">TURN</a></li>
+            <li><a href="">TIC TACS</a></li>
+            <li><a href="">POWER SLIDE</a></li>
+            <li><a href="">MANUAL</a></li>
+            <li><a href="">PICKUP</a></li>
+            <li><a href="">OLLIE</a></li>
+            <li><a href="">HALF CAB</a></li>
+            <li><a href="">NOLLIE</a></li>
+            <li><a href="">Shove It</a></li>
+            <li><a href="">360 SHOVE IT</a></li>
+            <li><a href="">KICK FLIP</a></li>
+            <li><a href="">HEEL FLIP</a></li>
+            <li><a href="">NO COMPLY</a></li>
+            <li><a href="">IMPOSSIBLE</a></li>
+            <li><a href="">360kicklip</a></li>
+            <li><a href="">VARIAL KICKFLIP</a></li>
+            <li><a href="">HARD FLIP</a></li>
+            <li><a href="">FRONTSIDE BOARD SLIDE</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h2>Category</h2>
+          <form action="" class="footer-form select-form">
+            <select name="" id="">
+              <option value="">カテゴリーを選択</option>
+              <option value=""><a href="">2020年1月（1）</a></option>
+              <option value=""><a href="">2019年12月（2）</a></option>
+              <option value=""><a href="">2019年11月（1）</a></option>
+              <option value=""><a href="">2019年10月（2）</a></option>
+              <option value=""><a href="">2019年9月（4）</a></option>
+            </select>
+          </form>
+
+          <h2 class="archive-area">Archives</h2>
+          <form action="" class="footer-form select-form">
+            <select name="" id="">
+              <option value="">月を選択</option>
+              <option value=""><a href="">2020年4月（3）</a></option>
+              <option value=""><a href="">2020年3月（11）</a></option>
+              <option value=""><a href="">2020年2月（9）</a></option>
+              <option value=""><a href="">2020年1月（5）</a></option>
+              <option value=""><a href="">2019年12月（15）</a></option>
+              <option value=""><a href="">2019年11月（12）</a></option>
+              <option value=""><a href="">2019年10月（7）</a></option>
+            </select>
+          </form>
+        </div>
+
+        <div class="footer-col">
+          <h2>About Us</h2>
+          <p class="footer-logo">SKATE CULTURE BLOG</p>
+          <div class="desc">
+            <p>
+              当ブログはスケートショップ「ILLRICHT SKATE SHOP」が運営する。スケートボードカルチャーに特化したサイトです。
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer-last">
+        <ul class="footer-navi">
+          <li class="contact"><a href="">お問い合わせ</a></li><span class="pc">|</span>
+          <li class="privacy"><a href="">プライバシーポリシー</a></li>
+        </ul>
+        <div class="copyright">
+          &copy;Copyright2020 <a href="">ILLRICHT SKATE SHOP</a>.All Rights Reserved.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- トップへ戻るボタン -->
+  <div id="page-top"><a href="#"><i class="fas fa-angle-up"></i></a></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/a5b01a92a3.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
