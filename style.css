@@ -1405,14 +1405,19 @@ footer a {
 }
 
 @media screen and (max-width: 375px) {
+  .person {
+    width: 80px;
+    height: 80px;
+  }
+  .commnt-area {
+    width: 70%;
+    font-size: 1.2rem;
+  }
   .main-visual {
     height: 325px;
   }
   .main-visual-text p {
     font-size: 1.2rem;
-  }
-  .slick-slide img {
-    height: auto;
   }
   .main-article a {
     display: block;
