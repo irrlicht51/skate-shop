@@ -1164,8 +1164,9 @@ h2.archive-area {
 .footer-logo {
   color: #eeee22;
   font-weight: bold;
-  line-height: 60px;
+  line-height: 36px;
   font-size: 3.2rem;
+  margin-bottom: 20px;
   padding-left: 15px;
   text-transform: uppercase;
   font-family: "Concert One", cursive;
