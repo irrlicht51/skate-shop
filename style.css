@@ -713,6 +713,11 @@ figcaption {
   color: #444444;
   font-weight: bold;
 }
+.slick-dots li button:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f111";
+  font-weight: 900
+}
 
 .main-content {
   max-width: 1180px;
