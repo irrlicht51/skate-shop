@@ -68,8 +68,8 @@ $('.header-serch').on('click', function() {
   $('.serch-wrapper').fadeIn(500);
 });
 
-$('.serch-wrapper').on('click', function() {
-  $(this).fadeOut(500);
+$('.close-btn, .serch-bg').on('click', function() {
+  $('.serch-wrapper').fadeOut(500);
 });
 
 $('.burger-btn').on('click', function() {
